@@ -106,12 +106,12 @@ footer {
     margin-top: 1rem;
     list-style: none;
     display: flex;
-    padding-left: 15em;
+    padding-left: 12em;
 }
 
 .fa-brands {
     color: rgb(94, 93, 93);
-    padding: 15px;
+    padding: 12px;
     border: 1px rgb(163, 162, 162) solid;
     border-radius: 30px;
 }
