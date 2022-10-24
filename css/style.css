@@ -12,8 +12,9 @@
 }
 
 body {
-    background-color: rgb(250, 243, 243);
-    height: 180vh;
+    background-color: white;
+    height: 100vh;
+    padding-top: 40px;
     /* margin: 10px; */
     /* box-sizing: border-box; */
 }
@@ -24,6 +25,10 @@ header {
     padding: 0;
     border-bottom: 3px green solid;
     background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
 }
 
 header img {
@@ -71,16 +76,17 @@ header .current a{
 footer { 
     background-color: rgb(246, 251, 246);
     padding: 10px;
-    position: fixed;
+    /* position: relative;
     left: 0;
     bottom: 0;
-    width: 100%;
-    min-height: 20px;
+    width: 100%; */
+    min-height: 15px;
 }
 
 .content {
     display: flex;
     box-sizing: border-box;
+    padding: 15px;
     /* grid-template-columns: 1fr 2fr 1fr; */
     /* margin: 10px; */
 }
@@ -123,36 +129,107 @@ footer {
 }
 
 .show {
-    min-height: 530px;
-    background: url(../images/flower.jpg) no-repeat bottom;
+    min-height: 100vh;
+    background: url(../images/flower.jpg);
+    background-repeat: no repeat;
     background-size: cover;
-    /* background-position: center; */
+    background-position: 100%;
     /* width: 100%; */
     /* border-top: 10px; */
 }
 
+.join-us {
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.join-us2 {
+    display: flex;
+    padding: 50px 40px 0 40px;
+    margin: 20px;
+}
+
+.join-us-tag {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1em;
+}
+
+.what-if {
+    padding-left: 16em;
+    line-height: 2em;
+}
+
+.join-us-text1 {
+    font-size: 14px;
+    padding-bottom: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+
+.join-us-text2 {
+    font-size: 14px;
+    padding-bottom: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+
+.join-us-text3 {
+    font-size: 14px;
+    padding-bottom: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+
+.join-us-text4 {
+    font-size: 14px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+
+.btn {
+    padding: 15px 0;
+}
+
+.join-us-btn {
+    padding: 15px 20px;
+    background-color: rgb(6, 111, 6);
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.join-us-btn:hover {
+    background-color: rgb(49, 145, 49);
+}
+
 .style_1 {
-    position: relative;
+    /* position: relative; */
     font-size: 40px;
     color: white;
     font-weight: bold;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 7em;
 }
 
 span {
     color: rgb(8, 92, 8);
 }
 
-.box {
-    margin: 10px;
-}
-
 .container2 {
     display: flex;
-    padding: 20px;
+    padding: 50px;
     /* justify-content: space-between; */
-    /* background-color: rgb(169, 248, 221); */
 }
 
 .box {
@@ -161,6 +238,7 @@ span {
     padding: 10px;
     margin: 10px;
     background-color: rgb(234, 249, 234);
+    min-height: 50vh;
 }
 
 .headr {
@@ -184,11 +262,14 @@ span {
     margin: 10px;   
 }
 
+.div-head {
+    padding: 30px 20px 10px 20px;
+}
+
 .container3 {
     display: flex;
     padding: 10px;
     padding-left: 150px;
-    /* box-sizing: border-box;  */
 }
 
 .depts {
@@ -233,7 +314,10 @@ p {
 }
 
 .container_4 {
-    /* width: 600px; */
+    padding: 50px;
+}
+
+.contact {
     padding: 20px;
     box-sizing: border-box;
     display: flex;
